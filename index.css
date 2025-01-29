@@ -1,0 +1,243 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Muli', sans-serif;
+}
+div .a{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+/*Global*/
+.containerw{
+	margin-top:200px;
+	margin-left:10px;
+	width:50%;
+	float:left;
+}
+.container1{
+	/* margin: auto; */
+	float:right;
+	width:40%;
+	margin-right:65x;
+	margin-top:30px;
+}
+#ff-title{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	background:white;
+	color:black;
+	margin-left:60%;
+	
+}
+/*margin adjustments*/
+
+ul, h2, p{
+	margin: auto;
+}
+
+header{
+	background: #000000;
+	min-height: 80px;
+	border-bottom: 3px solid black;
+	color: white;
+}
+
+/*Navigation bar*/
+nav{
+	margin-top: 15px;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	color:white;
+}
+
+.menu-item{
+	padding: 20px;
+	margin: 7px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.menu-item:hover {
+	color: #eded5a;
+	text-decoration: underline;
+	transition: .5s;
+}
+
+.menu-item:visited{
+	color: white;
+	text-decoration: none;
+}
+
+#dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+#dd-items{
+	border: 1px solid gray;
+	display: none;
+	padding: 10px;
+	margin: 0;
+}
+
+#dd-items a {
+	padding: 10px;
+	display: block;
+	border: 1px solid gray;
+	text-decoration: none;
+}
+
+#dd-items a{
+	color: black;
+	text-decoration: none;
+}
+
+#dd-items a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+#dropdown:hover #dd-items{ 
+	margin-top: 10px;
+	margin-left: 2px;
+	position: absolute;
+	left: 5px;
+	display: block;
+	background: white;
+ }
+
+#dd-items a:hover{
+	background-color: #eded5a;
+	transition: .5s;
+}
+
+
+#introduction{
+	min-height: 800px;
+	/*Photo by Bruna Branco on Unsplash*/	
+	background: url("images/home_bg3.png") no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	border-bottom: 3px solid black;
+	}
+
+#introduction .container{
+	padding-top: 130px;
+	font-family: 'Muli', sans-serif;
+}
+
+#motto{
+	color: #eded5a;
+	font-size: 60px;
+	text-shadow: 4px 4px black;
+}
+
+#quote{
+	margin-top: 20px;
+	color:yellow;
+	font-size:18px;
+	padding:10px;
+	background-color:black;
+}
+
+.more-recipes{
+	margin-top: 20px;
+	font-style: 'Muli', sans-serif;
+	padding: 10px 10px;
+	background-color: #93c9a2;
+	border: 3px solid #93c9a2;
+	border-radius: 10px;
+	color: black;
+}
+
+#more-recipes a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#more-recipes a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+#more-recipes:hover{
+	border: 4px solid white;
+	transition: .5s;
+}
+
+#fun-facts{
+
+	margin-right:50px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+.reason{
+	margin-top: 10px;
+	flex-basis: 30%;
+	background: maroon;
+	border: 4px solid maroon;
+	border-radius: 20px;
+	padding: 10px;
+	height: auto;
+}
+.reason h1{
+	color: white;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 3px;
+	font-style: italic;
+	text-shadow: 1px 1px yellow;
+}
+.reason span{
+	font-size: 1.5em;
+}
+
+.reason p, .reason span{
+	color: burlywood;
+}
+
+.reason:hover p {
+	color: white;
+	transition: .7s;
+}
+
+.reason:hover span{
+	font-weight: bold;
+	text-shadow: 0px 3px 4px black;
+	color: #eded5a;
+	transition: .7s;
+}
+
+.reason:hover {
+	box-shadow: 5px 5px 5px gray;
+	transition: .5s;
+}
+#chef{
+	width: 80px;
+	height: 70px;
+	position: absolute;
+	float:left;
+	animation: chefmove 8s infinite;
+}
+@keyframes chefmove {
+	0%   {bottom:-20px ;left: 200px;}
+	100% {bottom:-20px; left: 100vw;}
+  }
+
+
+
+
